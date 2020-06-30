@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 22 Apr 2020 14:13:32 GMT
+Content-Type: application/json
+Content-Length: 166
+Connection: keep-alive
+
+{"dns": "knot-epic", "location": "knot-epic", "timestamp": "2020-04-22 14:13:32", "traffic": {"192.168.128.2": {"queries": 69802, "anycast": {"a4": 69802, "a6": 0}}}}

@@ -1,0 +1,2 @@
+Ansible role zde jsou pouze ukázkami. Jsou v nich zanesy jednotlivé kroky instalace a priložené ukázkové konfigurační
+soubory pro nginx, systemd, wsgi a samotné aplikace. Instalační kroky vycházejí z popisovaného postupu v Diplomové práci.

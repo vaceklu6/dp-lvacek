@@ -1,0 +1,136 @@
+- block:
+  - name: install system requirements
+    apt: pkg={{ item }} install_recommends=no state=latest update_cache=no
+    with_items:
+      - python3
+      - python3-venv
+      - python3-virtualenv
+      - python3-dev
+      - python3-pip
+      - python-setuptools
+      - nginx
+      - git
+      - gcc
+      - libpcre3-dev
+      - libpcre3
+
+## Clone github repo
+  - name: Ensure /var/www/ directory has correct permissions.
+    file:
+      path: "{{repo_folder}}"
+      state: directory
+      owner: www-data
+      group: www-data
+
+  - name: Clone the code repository to the docroot.
+    git:
+      repo: git@github.com:vaceklu6/dns-middleware.git
+      dest: "{{repo_folder}}"
+      accept_hostkey: yes
+      force: yes
+    become_user: www-data
+
+## Virtual python
+  - name: Create __venv__
+    command: python3 -m venv __venv__
+    args:
+      chdir: "{{repo_folder}}"
+
+  - name: Change __venv__ owner
+    file:
+      dest: "{{venv}}"
+      owner: www-data
+      group: www-data
+      recurse: yes
+
+  - name: Install requirements
+    pip:
+      requirements: "{{repo_folder}}/requirements.txt"
+      virtualenv: "{{venv}}"
+
+## CONFIG
+  - name: Ensure /etc/dns-middleware directory exist.
+    file:
+      path: /etc/dns-middleware
+      state: directory
+      owner: root
+      group: root
+
+
+  - name: Copy dns-middleware config file.
+    template:
+      src: "templates/dns-middleware.conf"
+      dest: "/etc/dns-middleware/"
+      mode: 0644
+      owner: root
+      group: root
+
+## SERVICE
+  - name: Ensure /var/log/uwsgi directory exist.
+    file:
+      path: /var/log/uwsgi
+      state: directory
+      owner: root
+      group: root
+
+  - name: Copy wsgi.ini WSGI file.
+    template:
+      src: "templates/wsgi.ini"
+      dest: "{{ repo_folder }}/src/"
+      mode: 0644
+      owner: root
+      group: root
+
+
+  - name: Copy dns-middleware service file.
+    template:
+      src: "templates/dns-middleware.service"
+      dest: "/etc/systemd/system/"
+      mode: 0644
+      owner: root
+      group: root
+
+  - name: Restart dns-middleware service
+    systemd:
+      state: restarted
+      daemon_reload: yes
+      name: dns-middleware
+    tags: dns-middleware-restart
+
+## NGINX
+  - name: sites-available
+    template:
+      src: templates/dns-middleware_nginx.conf
+      dest: "/etc/nginx/sites-available/{{inventory_hostname}}"
+      owner: root
+      group: root
+      mode: 0640
+
+  - name: nginx sites-enabled link
+    file:
+      state: link
+      path: "/etc/nginx/sites-enabled/{{inventory_hostname}}"
+      src: "/etc/nginx/sites-available/{{inventory_hostname}}"
+      force: yes
+      owner: root
+      group: root
+
+  - name: nginx sites-enabled delete default
+    file:
+      state: absent
+      path: "/etc/nginx/sites-enabled/default"
+      force: yes
+    notify: reload nginx
+
+  when: ansible_os_family == 'Debian'
+  tags: dns-middleware
+
+- block:
+  - name: Stop dns-middleware service
+    systemd:
+      state: stopped
+      name: dns-middleware
+  when: ansible_os_family == 'Debian'
+  tags: dns-middleware-stop
+
+

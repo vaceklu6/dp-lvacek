@@ -1,0 +1,19 @@
+thread#15 sent 871 recvd 871
+thread#10 sent 871 recvd 871
+thread#14 sent 871 recvd 871
+thread#8 sent 871 recvd 871
+thread#9 sent 871 recvd 871
+thread#4 sent 871 recvd 871
+thread#6 sent 871 recvd 871
+thread#2 sent 871 recvd 871
+thread#12 sent 871 recvd 871
+thread#0 sent 871 recvd 871
+thread#1 sent 871 recvd 871
+thread#13 sent 871 recvd 871
+thread#7 sent 871 recvd 871
+thread#5 sent 871 recvd 871
+thread#3 sent 871 recvd 871
+thread#11 sent 871 recvd 871
+total sent 13936 (1393 qps)
+total recv 13936 (1393 qps) (100%)
+avg recv size: 116 B

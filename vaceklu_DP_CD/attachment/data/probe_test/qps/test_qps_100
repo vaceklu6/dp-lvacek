@@ -1,0 +1,19 @@
+thread#6 sent 61 recvd 61
+thread#14 sent 61 recvd 61
+thread#8 sent 61 recvd 61
+thread#15 sent 61 recvd 61
+thread#3 sent 61 recvd 61
+thread#0 sent 61 recvd 61
+thread#9 sent 61 recvd 61
+thread#4 sent 61 recvd 61
+thread#7 sent 61 recvd 61
+thread#5 sent 61 recvd 61
+thread#12 sent 61 recvd 61
+thread#11 sent 61 recvd 61
+thread#1 sent 61 recvd 61
+thread#10 sent 61 recvd 61
+thread#2 sent 61 recvd 61
+thread#13 sent 61 recvd 61
+total sent 976 (97 qps)
+total recv 976 (97 qps) (100%)
+avg recv size: 116 B

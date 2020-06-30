@@ -1,0 +1,19 @@
+thread#2 sent 2171 recvd 2171
+thread#12 sent 2171 recvd 2171
+thread#13 sent 2171 recvd 2171
+thread#4 sent 2171 recvd 2171
+thread#8 sent 2171 recvd 2171
+thread#9 sent 2171 recvd 2171
+thread#0 sent 2171 recvd 2171
+thread#10 sent 2171 recvd 2171
+thread#15 sent 2171 recvd 2171
+thread#3 sent 2171 recvd 2171
+thread#6 sent 2171 recvd 2171
+thread#5 sent 2171 recvd 2171
+thread#7 sent 2171 recvd 2171
+thread#14 sent 2171 recvd 2171
+thread#11 sent 2171 recvd 2171
+thread#1 sent 2171 recvd 2171
+total sent 34736 (496 qps)
+total recv 34736 (496 qps) (100%)
+avg recv size: 116 B

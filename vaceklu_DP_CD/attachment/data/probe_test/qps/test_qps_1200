@@ -1,0 +1,19 @@
+thread#13 sent 751 recvd 751
+thread#6 sent 751 recvd 751
+thread#3 sent 751 recvd 751
+thread#12 sent 751 recvd 751
+thread#8 sent 751 recvd 751
+thread#9 sent 751 recvd 751
+thread#10 sent 751 recvd 751
+thread#5 sent 751 recvd 751
+thread#7 sent 751 recvd 751
+thread#2 sent 751 recvd 751
+thread#14 sent 751 recvd 751
+thread#11 sent 751 recvd 751
+thread#4 sent 751 recvd 751
+thread#15 sent 751 recvd 751
+thread#0 sent 751 recvd 751
+thread#1 sent 751 recvd 751
+total sent 12016 (1201 qps)
+total recv 12016 (1201 qps) (100%)
+avg recv size: 116 B

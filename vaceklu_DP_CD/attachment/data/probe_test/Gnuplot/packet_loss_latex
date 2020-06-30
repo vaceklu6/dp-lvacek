@@ -1,0 +1,14 @@
+time [s] & "500 queries per second" & "600 queries per second" & "800 queries per second" & "1000 queries per second" \tabularnewline \hline
+10  & 0 & 0.00 & 4.65 &  8.65 \tabularnewline \hline
+20  & 0 & 0.03 & 2.65 &  9.33 \tabularnewline \hline
+30  & 0 & 0.02 & 4.22 & 13.38 \tabularnewline \hline
+40  & 0 & 0.00 & 2.47 & 12.83 \tabularnewline \hline
+50  & 0 & 0.02 & 3.10 &  9.81 \tabularnewline \hline
+60  & 0 & 0.03 & 2.97 & 14.16 \tabularnewline \hline
+70  & 0 & 0.02 & 3.50 &  9.36 \tabularnewline \hline
+80  & 0 & 0.03 & 2.86 & 10.68 \tabularnewline \hline
+90  & 0 & 0.03 & 3.07 & 10.21 \tabularnewline \hline
+100 & 0 & 0.04 & 3.14 &  9.61 \tabularnewline \hline
+110 & 0 & 0.02 & 2.94 & 10.22 \tabularnewline \hline
+120 & 0 & 0.02 & 3.55 &  9.31 \tabularnewline \hline
+

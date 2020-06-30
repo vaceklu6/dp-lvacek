@@ -1,0 +1,4 @@
+---
+repo_folder: '/var/www/dns-middleware'
+venv: "{{repo_folder}}/__venv__"
+

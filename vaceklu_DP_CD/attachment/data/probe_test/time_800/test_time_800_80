@@ -1,0 +1,19 @@
+thread#5 sent 4001 recvd 4001
+thread#14 sent 4001 recvd 4001
+thread#10 sent 4001 recvd 4001
+thread#15 sent 4001 recvd 4001
+thread#0 sent 4001 recvd 4001
+thread#1 sent 4001 recvd 4001
+thread#13 sent 4001 recvd 4001
+thread#7 sent 4001 recvd 4001
+thread#9 sent 4001 recvd 4001
+thread#8 sent 4001 recvd 4001
+thread#11 sent 4001 recvd 4001
+thread#12 sent 4001 recvd 4001
+thread#2 sent 4001 recvd 4001
+thread#3 sent 4001 recvd 4001
+thread#6 sent 4001 recvd 4001
+thread#4 sent 4001 recvd 4001
+total sent 64016 (800 qps)
+total recv 64016 (800 qps) (100%)
+avg recv size: 116 B

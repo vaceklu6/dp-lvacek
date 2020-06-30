@@ -1,0 +1,19 @@
+thread#9 sent 5581 recvd 5581
+thread#2 sent 5581 recvd 5581
+thread#6 sent 5581 recvd 5581
+thread#13 sent 5581 recvd 5581
+thread#11 sent 5581 recvd 5581
+thread#0 sent 5581 recvd 5581
+thread#3 sent 5581 recvd 5581
+thread#4 sent 5581 recvd 5581
+thread#1 sent 5581 recvd 5581
+thread#12 sent 5581 recvd 5581
+thread#14 sent 5581 recvd 5581
+thread#10 sent 5581 recvd 5581
+thread#8 sent 5581 recvd 5581
+thread#15 sent 5581 recvd 5581
+thread#5 sent 5581 recvd 5581
+thread#7 sent 5581 recvd 5581
+total sent 89296 (992 qps)
+total recv 89296 (992 qps) (100%)
+avg recv size: 116 B

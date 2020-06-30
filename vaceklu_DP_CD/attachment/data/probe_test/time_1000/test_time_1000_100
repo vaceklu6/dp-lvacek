@@ -1,0 +1,19 @@
+thread#13 sent 6201 recvd 6201
+thread#8 sent 6201 recvd 6201
+thread#2 sent 6201 recvd 6201
+thread#7 sent 6201 recvd 6201
+thread#1 sent 6201 recvd 6201
+thread#9 sent 6201 recvd 6201
+thread#3 sent 6201 recvd 6201
+thread#14 sent 6201 recvd 6201
+thread#10 sent 6201 recvd 6201
+thread#5 sent 6201 recvd 6201
+thread#11 sent 6201 recvd 6201
+thread#12 sent 6201 recvd 6201
+thread#4 sent 6201 recvd 6201
+thread#6 sent 6201 recvd 6201
+thread#15 sent 6201 recvd 6201
+thread#0 sent 6201 recvd 6201
+total sent 99216 (992 qps)
+total recv 99216 (992 qps) (100%)
+avg recv size: 116 B

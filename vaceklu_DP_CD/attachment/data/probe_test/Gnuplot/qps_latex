@@ -1,0 +1,21 @@
+qps & "DNS queries captured with probe" & "DNS queries sent" & "Packet loss [%]" \tabularnewline \hline
+100 & 976 & 976 &       0.00 \tabularnewline \hline
+200 & 1936 & 1936 &     0.00 \tabularnewline \hline
+300 & 2896 & 2896 &     0.00 \tabularnewline \hline
+400 & 4016 & 4016 &     0.00 \tabularnewline \hline
+500 & 4976 & 4976 &     0.00 \tabularnewline \hline
+600 & 5919 & 5936 &     0.27 \tabularnewline \hline
+700 & 6833 & 6896 &     0.91 \tabularnewline \hline
+800 & 7798 & 8016 &     2.72 \tabularnewline \hline
+900 & 8358 & 8976 &     6.89 \tabularnewline \hline
+1000 & 8868 & 9936 &   10.75 \tabularnewline \hline
+1100 & 9415 & 10896 &  13.59 \tabularnewline \hline
+1200 & 9956 & 12016 &  17.14 \tabularnewline \hline
+1300 & 10546 & 12976 & 18.73 \tabularnewline \hline
+1400 & 10208 & 13936 & 26.75 \tabularnewline \hline
+1500 & 10733 & 14896 & 27.95 \tabularnewline \hline
+1600 & 11963 & 16016 & 25.31 \tabularnewline \hline
+1700 & 12805 & 16976 & 24.57 \tabularnewline \hline
+1800 & 14045 & 17936 & 21.69 \tabularnewline \hline
+1900 & 11882 & 18896 & 37.12 \tabularnewline \hline
+2000 & 11735 & 20016 & 41.37 \tabularnewline \hline

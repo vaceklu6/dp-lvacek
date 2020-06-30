@@ -1,0 +1,19 @@
+thread#5 sent 431 recvd 431
+thread#12 sent 431 recvd 431
+thread#14 sent 431 recvd 431
+thread#6 sent 431 recvd 431
+thread#2 sent 431 recvd 431
+thread#15 sent 431 recvd 431
+thread#8 sent 431 recvd 431
+thread#9 sent 431 recvd 431
+thread#7 sent 431 recvd 431
+thread#13 sent 431 recvd 431
+thread#4 sent 431 recvd 431
+thread#10 sent 431 recvd 431
+thread#0 sent 431 recvd 431
+thread#3 sent 431 recvd 431
+thread#11 sent 431 recvd 431
+thread#1 sent 431 recvd 431
+total sent 6896 (689 qps)
+total recv 6896 (689 qps) (100%)
+avg recv size: 116 B

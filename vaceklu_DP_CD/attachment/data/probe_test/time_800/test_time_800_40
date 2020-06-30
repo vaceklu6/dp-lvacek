@@ -1,0 +1,19 @@
+thread#14 sent 2001 recvd 2001
+thread#0 sent 2001 recvd 2001
+thread#5 sent 2001 recvd 2001
+thread#3 sent 2001 recvd 2001
+thread#1 sent 2001 recvd 2001
+thread#10 sent 2001 recvd 2001
+thread#2 sent 2001 recvd 2001
+thread#12 sent 2001 recvd 2001
+thread#4 sent 2001 recvd 2001
+thread#8 sent 2001 recvd 2001
+thread#13 sent 2001 recvd 2001
+thread#6 sent 2001 recvd 2001
+thread#9 sent 2001 recvd 2001
+thread#7 sent 2001 recvd 2001
+thread#15 sent 2001 recvd 2001
+thread#11 sent 2001 recvd 2001
+total sent 32016 (800 qps)
+total recv 32016 (800 qps) (100%)
+avg recv size: 116 B

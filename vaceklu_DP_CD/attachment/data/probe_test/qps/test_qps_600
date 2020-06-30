@@ -1,0 +1,19 @@
+thread#12 sent 371 recvd 371
+thread#9 sent 371 recvd 371
+thread#3 sent 371 recvd 371
+thread#1 sent 371 recvd 371
+thread#6 sent 371 recvd 371
+thread#4 sent 371 recvd 371
+thread#10 sent 371 recvd 371
+thread#2 sent 371 recvd 371
+thread#15 sent 371 recvd 371
+thread#5 sent 371 recvd 371
+thread#0 sent 371 recvd 371
+thread#7 sent 371 recvd 371
+thread#13 sent 371 recvd 371
+thread#8 sent 371 recvd 371
+thread#14 sent 371 recvd 371
+thread#11 sent 371 recvd 371
+total sent 5936 (593 qps)
+total recv 5936 (593 qps) (100%)
+avg recv size: 116 B

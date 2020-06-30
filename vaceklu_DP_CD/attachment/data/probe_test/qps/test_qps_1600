@@ -1,0 +1,19 @@
+thread#1 sent 1001 recvd 1001
+thread#6 sent 1001 recvd 1001
+thread#10 sent 1001 recvd 1001
+thread#9 sent 1001 recvd 1001
+thread#11 sent 1001 recvd 1001
+thread#13 sent 1001 recvd 1001
+thread#5 sent 1001 recvd 1001
+thread#0 sent 1001 recvd 1001
+thread#3 sent 1001 recvd 1001
+thread#4 sent 1001 recvd 1001
+thread#12 sent 1001 recvd 1001
+thread#8 sent 1001 recvd 1001
+thread#14 sent 1001 recvd 1001
+thread#2 sent 1001 recvd 1001
+thread#15 sent 1001 recvd 1001
+thread#7 sent 1001 recvd 1001
+total sent 16016 (1601 qps)
+total recv 16016 (1601 qps) (100%)
+avg recv size: 116 B

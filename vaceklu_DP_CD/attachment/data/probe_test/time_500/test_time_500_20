@@ -1,0 +1,19 @@
+thread#0 sent 621 recvd 621
+thread#12 sent 621 recvd 621
+thread#9 sent 621 recvd 621
+thread#11 sent 621 recvd 621
+thread#4 sent 621 recvd 621
+thread#2 sent 621 recvd 621
+thread#5 sent 621 recvd 621
+thread#10 sent 621 recvd 621
+thread#8 sent 621 recvd 621
+thread#1 sent 621 recvd 621
+thread#7 sent 621 recvd 621
+thread#13 sent 621 recvd 621
+thread#14 sent 621 recvd 621
+thread#15 sent 621 recvd 621
+thread#3 sent 621 recvd 621
+thread#6 sent 621 recvd 621
+total sent 9936 (496 qps)
+total recv 9936 (496 qps) (100%)
+avg recv size: 116 B

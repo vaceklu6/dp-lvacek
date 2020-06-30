@@ -1,0 +1,19 @@
+thread#1 sent 251 recvd 251
+thread#8 sent 251 recvd 251
+thread#7 sent 251 recvd 251
+thread#11 sent 251 recvd 251
+thread#5 sent 251 recvd 251
+thread#12 sent 251 recvd 251
+thread#13 sent 251 recvd 251
+thread#4 sent 251 recvd 251
+thread#3 sent 251 recvd 251
+thread#10 sent 251 recvd 251
+thread#14 sent 251 recvd 251
+thread#2 sent 251 recvd 251
+thread#9 sent 251 recvd 251
+thread#6 sent 251 recvd 251
+thread#0 sent 251 recvd 251
+thread#15 sent 251 recvd 251
+total sent 4016 (401 qps)
+total recv 4016 (401 qps) (100%)
+avg recv size: 116 B

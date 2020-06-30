@@ -1,0 +1,19 @@
+thread#10 sent 1861 recvd 1861
+thread#13 sent 1861 recvd 1861
+thread#3 sent 1861 recvd 1861
+thread#14 sent 1861 recvd 1861
+thread#7 sent 1861 recvd 1861
+thread#12 sent 1861 recvd 1861
+thread#5 sent 1861 recvd 1861
+thread#0 sent 1861 recvd 1861
+thread#6 sent 1861 recvd 1861
+thread#2 sent 1861 recvd 1861
+thread#15 sent 1861 recvd 1861
+thread#1 sent 1861 recvd 1861
+thread#9 sent 1861 recvd 1861
+thread#4 sent 1861 recvd 1861
+thread#8 sent 1861 recvd 1861
+thread#11 sent 1861 recvd 1861
+total sent 29776 (496 qps)
+total recv 29776 (496 qps) (100%)
+avg recv size: 116 B

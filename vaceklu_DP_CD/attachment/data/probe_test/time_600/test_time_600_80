@@ -1,0 +1,19 @@
+thread#12 sent 2961 recvd 2961
+thread#2 sent 2961 recvd 2961
+thread#3 sent 2961 recvd 2961
+thread#7 sent 2961 recvd 2961
+thread#0 sent 2961 recvd 2961
+thread#9 sent 2961 recvd 2961
+thread#11 sent 2961 recvd 2961
+thread#4 sent 2961 recvd 2961
+thread#15 sent 2961 recvd 2961
+thread#13 sent 2961 recvd 2961
+thread#6 sent 2961 recvd 2961
+thread#8 sent 2961 recvd 2961
+thread#14 sent 2961 recvd 2961
+thread#1 sent 2961 recvd 2961
+thread#10 sent 2961 recvd 2961
+thread#5 sent 2961 recvd 2961
+total sent 47376 (592 qps)
+total recv 47376 (592 qps) (100%)
+avg recv size: 116 B

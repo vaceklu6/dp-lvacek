@@ -1,0 +1,4 @@
+---
+repo_folder: '/var/www/dns-sniffer'
+venv: "{{repo_folder}}/__venv__"
+
